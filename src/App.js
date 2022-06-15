@@ -83,21 +83,16 @@ function App() {
         
         
         {/* contact section */}
-        <section id="about" className="h-420 w-full grid grid-cols-1 md:grid-cols-2 gap-4 md:mt-8 mt-4 my-24">
+        <section id="about" className="h-420 w-full grid grid-cols-1  md:mt-8 mt-4 my-24">
           {/* content */}
           <div className="">
-            <p className="text-md text-gray-400 capitalize">ABOUT US</p>
-            <h1 className="text-xl text-textBase text-start mt-6">By <span className="text-blue-300 font-bold text-2xl">Community</span > For <span className="text-blue-300 font-bold text-2xl">Diabetes </span>Patients</h1>
-            <p className="text-sm text-textBase text-center mt-6">The <span className="text-blue-300 font-bold text-md">Angels</span> is a collection of <span className="text-blue-300 font-bold text-md">11,111 unique NFTs</span> stored as ERC-721 on the Ethereum blockchain, hosted on IPFS.<span className="text-blue-300 font-bold text-md">Sold Out</span> on 17 of September 2022</p>
-            <p className="text-sm text-textBase text-center mt-6">Today, Metapreneurs stands as a collective, providing value to our holders in their business ventures, and shaping the path of their entrepreneurial journey.</p>
-            <p className="text-sm text-textBase text-center mt-6">Metapreneurs is not just an NFT Collection, it’s a launchpad for our holders to learn and connect with the right people, at the right time. Owning a Metapreneurs NFT provides Membership to an exclusive international network of the entrepreneurial-minded.</p>
-            <p className="text-sm text-textBase text-center mt-6">Your Metapreneur is a golden ticket to business opportunities and knowledge within a wide range of markets. Join the #WinnersClub</p>
+            
           </div>
           {/* image */}
     
           <div className="w-full h-420 flex items-center justify-center">
-            <div className="w-275 h-340 bg-blue-300 relative rounded-md">
-              <img className="w-full h-full absolute object-cover shadow-md -right-4 top-4 rounded-lg" src="" alt="" />
+            <div className="w-275 h-340 bg-transparent relative rounded-md">
+              <img className="w-full h-full absolute object-cover shadow-md - rounded-lg" src={HeaderLogo} alt="space network logo" />
             </div>
           </div>
          
