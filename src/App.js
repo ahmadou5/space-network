@@ -93,7 +93,7 @@ function App() {
               What is Cross-Chain?
             </h1>
             <p className="text-md md:2xl py-4 font-mono text-white font-extrabold text-center">The Future Of Web3 Will be Powered by Cross-Chain</p>
-            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">We aim to Bring You the Best Ever Cross-Chain</p>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">We aim to Bring You the Best Ever Cross-Chain Services</p>
             
           </div>
         </section>
