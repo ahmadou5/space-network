@@ -43,9 +43,9 @@ function App() {
       </nav>
       
       <main className="w-[80%] relative mt-3">
-        <div className="w-full h-420 flex  items-center justify-center">
+        <div className="w-full h-685 flex  items-center justify-center">
             <h1 className=" font-mono text-5xl md:text-8xl text-white">
-              <span className=" text-blue-300">Cross</span>-Chain <br/> Everything.
+              <span className=" text-blue-300">Cross</span>-Chain <br/> Everything!
 
             </h1>
            
@@ -55,7 +55,7 @@ function App() {
 
         </div>
         {/* about section*/}
-        <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24" id="home">
+        <section className="w-full md:h-600 grid grid-cols-1 md:grid-cols-2 gap-4 mb-14 my-24" id="home">
           {/* img box*/}
           <div className="w-full h-420 flex items-center justify-center">
             <div className="w-full h-420 bg-transparent relative rounded-md">
@@ -83,26 +83,34 @@ function App() {
         
         
         {/* contact section */}
-        <section id="about" className="h-420 w-full grid grid-cols-1  md:mt-8 mt-4 my-24">
+        <section id="about" className="h-420 w-full  md:mt-14 mt-4 my-24">
           {/* content */}
-          <div className="">
+          <div className="w-full h-420  items-center relative justify-center">
+            <h1 className="text-2xl mb-9 md:text-5xl font-mono text-white text-center">
+              What is Cross-Chain?
+            </h1>
+            <p className="text-md md:2xl py-4 font-mono text-white font-extrabold text-center">The Future Of Web3 Will be Powered by Cross-Chain</p>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">We aim to Bring You the Best Ever Cross-Chain</p>
             
           </div>
-          {/* image */}
-    
-          <div className="w-full h-420 flex items-center justify-center">
-            <div className="w-275 h-340 bg-transparent relative rounded-md">
-              <img className="w-full h-full absolute object-cover shadow-md - rounded-lg" src={HeaderLogo} alt="space network logo" />
-            </div>
+        </section>
+        <section id="about" className="h-800 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8 md:space-y-0 mt-8 my-24 ">
+          {/* content */}
+          <div className="w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+            <h1 className="text-xl mt-9 mb-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Assets</h1>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Cross-Chain Your Asset, access it from Multiple Supported Blockchains with ease</p>
           </div>
-         
-
-
+          <div className="w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+            <h1 className="text-xl mb-9 mt-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Data</h1>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">fu nk u</p>
+          </div>
+          {/* image */} 
           
         </section>
+        
 
         {/* contact section */}
-        <section id="wlist" className="w-full h-420 my-24 flex flex-col items-center justify-center">
+        <section id="wlist" className="w-full h-420 my-24 mt-9 flex flex-col items-center justify-center">
          <p className="text-2xl text-gray-400 capitalize">Our Mission</p>
           
         </section>
@@ -123,6 +131,11 @@ function App() {
         <section id="ddao" className="w-full h-420 my-24 flex flex-col items-center justify-center">
          <p className="text-2xl text-gray-400 capitalize">DDAO Token</p>
           
+        </section>
+        <section id="about" className="h-420 w-full grid grid-cols-1 mt-24  md:mt-8  my-24">
+          <div className="w-full h-full flex items-center relative justify-center">
+              <img className="w-[100%] h-320 absolute object-cover shadow-md  rounded-lg" src={HeaderLogo} alt="space network logo" />
+          </div>
         </section>
       </main> 
       
