@@ -3,6 +3,9 @@ import { useState } from "react";
 import { IoMenu } from "react-icons/io5"
 import HeaderLogo from './assets/SPACEHEADER.png'
 import Logo from './assets/SPACE 1.png'
+import BNBLogo from './assets/bnb.svg'
+import CFXLogo from './assets/CFX.svg'
+import MTCLogo from './assets/polygon.svg'
 
 function App() {
   const [isActive, setisActive] = useState(false);
@@ -18,10 +21,10 @@ function App() {
 
           <div className="hidden md:flex items-center gap-6 ml-9 flex-1">
             <a href="#home" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">About</a>
-            <a href="#mint" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Mission</a>
+            <a href="#mint" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Products</a>
             <a href="#wlist" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Road Map</a>
             <a href="#about" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Team</a>
-            <a href="#ddao" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">DDAO</a>
+            <a href="#ddao" className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">$SPACE</a>
             <button  className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-blue-300 duration-100 ease-in-out">Join Our Discord</button>
           </div>
           <div  className="block md:hidden ml-auto cursor-pointer" onClick={()=> setisActive(!isActive)}>
@@ -31,10 +34,10 @@ function App() {
           {isActive && (
             <div className="p-4 w-275 bg-navBar rounded-lg fixed top-24 right-16 flex flex-col items-center justify-evenly gap-6">
               <a href="#home" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">About</a>
-              <a href="#mint" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Mission</a>
+              <a href="#mint" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Products</a>
               <a href="#wlist" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Road Map</a>
               <a href="#about" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">Team</a>
-              <a href="#ddao" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">DDAO</a>
+              <a href="#ddao" onClick={() => setisActive(false)} className="text-textBase font-medium hover:text-blue-300 cursor-pointer duration-100 ease-in-out">$SPACE</a>
               <button  onClick={() => setisActive(false)} className="text-base text-textBase font-medium hover:text-blue-300 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out">Join Our Discord</button>
 
             </div>
@@ -102,34 +105,31 @@ function App() {
           </div>
           <div className="w-full md:w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <h1 className="text-xl mb-9 mt-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Data</h1>
-            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">fu nk u</p>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Cross-chain Data and access it from Multiple chains</p>
           </div>
           {/* image */} 
           
         </section>
-        
 
         {/* contact section */}
-        <section id="wlist" className="w-full h-420 my-24 mt-9 flex flex-col items-center justify-center">
-         <p className="text-2xl text-gray-400 capitalize">Our Mission</p>
-          
+        <section id="ddao" className="w-full h-[100px] my-24 flex flex-col items-center justify-center">
+         <p className="text-2xl text-gray-400 capitalize mb-9">Partners</p>
         </section>
-
-        {/* contact section */}
-        <section id="mint" className="w-full h-420 my-24 flex flex-col items-center justify-center">
-         <p className="text-2xl text-gray-400 capitalize">Road Map</p>
-          
-        </section>
-
-        {/* contact section */}
-        <section id="todo" className="w-full  h-420 my-24 flex flex-col items-center justify-center">
-         <p className="text-2xl text-gray-400 capitalize">To do list</p>
-          
-        </section>
-
-        {/* contact section */}
-        <section id="ddao" className="w-full h-420 my-24 flex flex-col items-center justify-center">
-         <p className="text-2xl text-gray-400 capitalize">DDAO Token</p>
+        <section id="about" className="h-420 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8  mt-8 my-24 ">
+          {/* content */}
+          <div className="w-full md:w-[60%] h-[218px] md:h-[225px] m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+            <img className="items-center w-[140px] h-[140px] ml-auto mr-auto mt-3" src={BNBLogo} alt="BNB"/>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Binance Smart Chain</p>
+          </div>
+          <div className="w-full md:w-[60%] h-[218px] md:h-[225px] m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+            <img className="items-center w-[140px] h-[140px] ml-auto mr-auto mt-3" src={CFXLogo} alt="CFX"/>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Conflux Network</p>
+          </div>
+          <div className="w-full md:w-[60%] h-[218px] md:h-[225px] m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+            <img className=" items-center w-[140px] h-[140px] ml-auto mr-auto mt-3" src={MTCLogo} alt="MATIC"/>
+            <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Polygon Network</p>
+          </div>
+          {/* image */} 
           
         </section>
         <section id="about" className="h-420 w-full grid grid-cols-1 mt-24  md:mt-8  my-24">
@@ -140,11 +140,6 @@ function App() {
       </main> 
       
 
-      
-
-
-
-     
     </div>
   );
 }
