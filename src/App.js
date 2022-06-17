@@ -73,7 +73,7 @@ function App() {
             </p>
             <button whileTap={{scale: 0.7}} class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Get Yours
+                  Explore
                 </span>
             </button>
           </div>
@@ -96,11 +96,11 @@ function App() {
         </section>
         <section id="about" className="h-800 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8 md:space-y-0 mt-8 my-24 ">
           {/* content */}
-          <div className="w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+          <div className="w-full h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <h1 className="text-xl mt-9 mb-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Assets</h1>
             <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Cross-Chain Your Asset, access it from Multiple Supported Blockchains with ease</p>
           </div>
-          <div className="w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+          <div className="w-full h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <h1 className="text-xl mb-9 mt-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Data</h1>
             <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">fu nk u</p>
           </div>
