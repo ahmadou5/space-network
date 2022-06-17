@@ -115,7 +115,7 @@ function App() {
         <section id="ddao" className="w-full h-[100px] my-24 flex flex-col items-center justify-center">
          <p className="text-2xl text-gray-400 capitalize mb-9">Partners</p>
         </section>
-        <section id="about" className="h-420 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8  mt-8 my-24 ">
+        <section id="about" className="h-600 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8  mt-8 my-24 ">
           {/* content */}
           <div className="w-full md:w-[60%] h-[218px] md:h-[225px] m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <img className="items-center w-[140px] h-[140px] ml-auto mr-auto mt-3" src={BNBLogo} alt="BNB"/>
