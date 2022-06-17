@@ -96,11 +96,11 @@ function App() {
         </section>
         <section id="about" className="h-800 md:h-420 w-full grid grid-cols-1 md:grid-cols-2 m-auto space-y-5 mb-9 md:mb-8 md:space-y-0 mt-8 my-24 ">
           {/* content */}
-          <div className="w-full h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+          <div className="w-full md:w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <h1 className="text-xl mt-9 mb-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Assets</h1>
             <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">Cross-Chain Your Asset, access it from Multiple Supported Blockchains with ease</p>
           </div>
-          <div className="w-full h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
+          <div className="w-full md:w-[80%] h-370 md:h-420 m-auto items-center relative rounded-3xl border-solid border border-blue-300 justify-center bg-transparent">
             <h1 className="text-xl mb-9 mt-9 md:text-3xl font-mono text-white text-center font-extrabold">Cross-Data</h1>
             <p className="text-md md:2xl py-4 font-mono text-textBase  text-center">fu nk u</p>
           </div>
